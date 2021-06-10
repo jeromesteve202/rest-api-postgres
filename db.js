@@ -6,6 +6,6 @@ const pool = new Pool({
   database: "todo_database",
   host: "localhost",
   port: 5432
-})
+});
 
 module.exports = pool;
